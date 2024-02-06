@@ -6,46 +6,65 @@
     <title>Document</title>
 </head>
 <body>
-
-        <?php
-            // echo '<h1>Hello, PHP</h1>';
-            $a = 100;
-            $b = 'A';
-
-            // if ($a == 100) $a = 'ok';
-            //     else $a = 'no';
-
-            echo ($a == 100)? 'ok' : 'no';
-
-            
-            
-            // if ($a === $b) echo 'ok';
-            // else echo 'no';
+        <h1>
+            <?php
+            echo 'Hello, World!'.'<br>';
+            ?>
+        </h1>
+        <h2>Задания для самостоятельной работы <br>
+            <?php
+            // $a = 27;
+            // $b = 12;
+            // echo round(sqrt($a**2 + $b**2),2).'<br>';
+            // echo round(sqrt($a**2 - $b**2),2).'<br>';
 
 
+            // $quieter = 'Тише';
+            // $go = 'едешь'; 
+            // $further = 'дальше'; 
+            // echo ("{$quieter} {$go} {$further} будешь!").'<br>';
+            // echo ($quieter . ' ' . $go . ' '.  $further . ' ' .'будешь').'<br>';
 
-            // if($a < $b) echo 'ok';
-            // else echo 'no';
-            
 
+            // $a = true;
+            // $b = false;
             // echo $a.'<br>';
-            // echo ++$a;
-            // echo $a .= $a ;
+            // echo $b.'<br>';
 
 
-            // define('pi', 3.14);
 
-            // echo $a+$b;
-            // $a = (int)$b;
-            // echo $a 
-            // echo "<h2> $a </h2>";
-            // $x = 3.4;
-            // $z = 5.8;
-            // echo '$x = '.floor($x).'$z = '.floor($z).'<br>';
-            // echo '$x = '.round($x).'$z = '.round($z).'<br>';
-            // echo '$x = '.ceil($x).'$z = '.ceil($z).'<br>';
-            // print '2<sup>10='.pow(2,10);
-        ?>
+            // $a = 4.3; 
+            // $b = 7.7; 
+            // $c = '5.5'; 
+            // $d = '3.4кг';
+            // $c = (float)$c;
+            // $d = (float)$d;
+            // echo '$a = '.floor($a).' $b = '.floor($b).' $c = '.floor($c).' $d = '.floor($d).'<br>';
+            // echo '$a = '.ceil($a).' $b = '.ceil($b).' $c = '.ceil($c).' $d = '.ceil($d).'<br>';
 
+
+            // $a = 7;
+            // $b = 4;
+            // $c = ' воробья';
+            // $minus = $a - $b;
+            // echo $minus.$c
+
+            // $a = 2; 
+            // $b = 2.0;
+            // $c = '2';
+            // $d = 'two';
+            // $g = true;
+            // $f = false;
+            // echo "Исходный тип {$a} {$b} {$c} {$d} {$g} {$f}".'<br>';
+            // $a = (float)$a;
+            // $b = (float)$b;
+            // $c = (float)$c;
+            // $d = (float)$d;
+            // $g = (float)$g;
+            // $f = (float)$f;
+
+            // echo "Полученное значение $a {$b} {$c} {$d} {$g} {$f} ";
+            ?>
+        </h2>
 </body>
 </html>
