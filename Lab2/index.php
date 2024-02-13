@@ -17,19 +17,24 @@
         switch ($operator) {
             case '+':
                 $x = $result - $operand;
-                echo $x; break;
+                echo $x; 
+                break;
             case '-':
                 $x = $result + $operand;
-                echo $x; break;
+                echo $x; 
+                break;
             case '/':
                 $x = $result * $operand;
-                echo $x; break;
+                echo $x; 
+                break;
             case '*':
                 $x = $result / $operand;
-                echo $x; break;
+                echo $x; 
+                break;
             case '**':
                 $x = $result ** (1 / $operand);
-                echo $x; break;
+                echo $x; 
+                break;
             default:
                 echo 'Оператор введен неверно';
         };
